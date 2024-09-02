@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG WEB 3</title>
+</head>
+<body>
+    <script>
+        // variable -----------------------------------------------
+        var a = 10; //statment
+        var b = "20";
+        var c = a + b; //jumlah
+        var d = a - b; //kurang
+        var e = a * b; //kali
+        var f = a / b; //bagi
+        var g = a % b; //persen
+        var h = a ^ b; //pangkat
+        
+        // data type
+        var karakter = ['boboiboy', 'yin', 'yaya', 'fang', 'gopal'];
+
+        // data type object
+        var identitas = {
+            nama: 'boboiboy', 
+            umur: 12,
+            alamat: 'Malaysia'
+        };
+        console.log("nama " + identitas.nama + ", umur " + identitas.umur 
+        + "tahun");
+
+        var DataIdentitas = "nama " + identitas.nama + ", umur " + identitas.umur 
+        + "tahun"
+
+
+        var pesan_bahaya = "Peringatan keras, ada zombie!";
+
+        // function ----------------------------------------
+        function profil(nama, umur) {
+            alert("nama: " + nama + ", umur: " + umur +" tahun");
+        }
+
+        // function call
+        //profil("sheryn", 20);
+
+        // console.log(DataIdentittas);
+
+
+        // conditional --------------------------------------
+        var nilai = 20;
+        if (nilai >= 80) {
+            alert("Nilai anda A");
+            // nilai 70-79
+        } else if (nilai >= 70 && nilai < 80){
+            alert("Nilai anda B");
+        } else if(nilai >= 60 && nilai < 70){
+            alert("Nilai anda C");
+        } else if(nilai >= 20 && nilai < 60){
+            alert("Nilai anda D!");
+        }
+
+        
+    </script>
+</body>
+</html>
